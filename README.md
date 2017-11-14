@@ -31,5 +31,11 @@ debug = true Это включение и выключение дебагово�
 [d4j]: <https://github.com/austinv11/Discord4J>
 - [Discord4j][d4j]
 
+# Контакты и пример работы
+- http://t.me/inotka
+- http://vk.com/inotka
+- https://discord.me/insane
+
+
 tags: discord, bot, rolebot, emodji
 
