@@ -38,7 +38,7 @@ public class MyEvents {
                 message.addReaction(e);
             }
         }
-        System.out.println("You can invite your bot, by this URL: https://discordapp.com/oauth2/authorize?client_id=" + event.getClient().getOurUser().getLongID() + "&scope=bot");
+        if(debug)System.out.println("You can invite your bot, by this URL: https://discordapp.com/oauth2/authorize?client_id=" + event.getClient().getOurUser().getLongID() + "&scope=bot");
         event.getClient().getUserByID(owner).getOrCreatePMChannel().sendMessage("Bot Ready - " + LocalDateTime.now());
     }
 
